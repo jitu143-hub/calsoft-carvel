@@ -1,0 +1,9 @@
+---
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageRepository
+metadata:
+  name: simple-package-repository
+spec:
+  fetch:
+    imgpkgBundle:
+      image: jitu758/demo-app:1.0.0
