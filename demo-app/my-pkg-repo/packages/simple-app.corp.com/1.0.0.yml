@@ -28,7 +28,7 @@ spec:
     spec:
       fetch:
       - imgpkgBundle:
-          image: jitu758/demo-app:1.0.0
+          image: ghcr.io/jitu143-hub/packages/simple-app:1.0.0
       template:
       - ytt:
           paths:

@@ -6,4 +6,4 @@ metadata:
 spec:
   fetch:
     imgpkgBundle:
-      image: jitu758/demo-app:1.0.0
+      image: ghcr.io/jitu143-hub/packages/my-pkg-repo:1.0.0

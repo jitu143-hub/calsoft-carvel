@@ -2,6 +2,10 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
-    kbld.carvel.dev/id: index.docker.io/library/nginx@sha256:2c72b42c3679c1c819d46296c4e79e69b2616fa28bea92e61d358980e18c9751
-  image: index.docker.io/library/nginx@sha256:2c72b42c3679c1c819d46296c4e79e69b2616fa28bea92e61d358980e18c9751
+    kbld.carvel.dev/id: ghcr.io/jitu143-hub/packages/simple-app:1.0.0
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: 1.0.0
+          url: ghcr.io/jitu143-hub/packages/simple-app:1.0.0
+  image: ghcr.io/jitu143-hub/packages/simple-app@sha256:b1b6ae157543e5666b80918fad048855f5de0f5af48698fe1277f2ec43e793f3
 kind: ImagesLock

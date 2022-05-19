@@ -16,7 +16,7 @@ spec:
     spec:
       fetch:
       - imgpkgBundle:
-          image: #@ "/packages/simple-app:" + data.values.version
+          image: #@ "ghcr.io/jitu143-hub/packages/simple-app:" + data.values.version
       template:
       - ytt:
           paths:
